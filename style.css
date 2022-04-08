@@ -1,0 +1,22 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.btn-primary {
+  background-color: #f900bf !important
+  ;
+  border: none !important;
+}
+
+.newsletter,
+.instructors {
+  background-color: #f900bf !important;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
